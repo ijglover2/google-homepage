@@ -3,11 +3,114 @@
     <head>
         <meta charset="utf-8">
 		<title>Google</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+            body {
+                font-family: 'Roboto', sans-serif;
+            }
+            a {
+                font-size: 13px;
+                text-decoration: none;
+                color: #222;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            .header {
+                height: 50px;
+                width: 100%;
+            }
+            .google-logo {
+                margin: auto;
+            }
+            .search-bar {
+
+            }
+            .footer {
+                width: 99%;
+                position:absolute;
+                bottom: 0%;
+                height:50px;
+            }
+            #business {
+                padding-left: 1em;
+            }
+            #how-search-works {
+                padding-left: 1em;
+            }
+            #privacy {
+                align: right;
+                float: right;
+            }
+            #terms {
+                align: right;
+                float: right;
+                padding-left: 1em;
+            }
+            #settings {
+                justify-content: left;
+                float: right;
+                padding-left: 1em;
+            }
+            #store {
+               padding-left: 1em; 
+            }
+            #gmail {
+                float: right;
+                padding-right: 1em;
+                padding-top: 0.5em;
+            }
+            #images {
+                float: right;
+                padding-right: 1em;
+                padding-top: 0.5em;
+            }
+            #apps {
+                width: 30px;
+                height: 30px;
+                float: right;
+                padding-right: 1em;
+            }
+            #sign-in {
+                float: right;
+                padding-right: 1em;
+            }
+            div.content {
+                width: 100%;
+                text-align: center;
+                padding-top: 10em;
+            }
+            #sign-in-button {
+                background-color: rgb(66, 133, 244);
+                color: white;
+                border-radius: 5%;
+                height: 30px;
+                width: 75px;
+                border: none;
+            }
+        </style>
     </head>
     <body>
-        <ul> <!-- navbar list on header of page -->
-            <li><a>About</a></li>
-
-        </ul>
+        <div class="header">
+                <a id="about" href="placeholder">About</a>
+                <a id="store" href="placeholder">Store</a>
+                <a id="sign-in" href="placeholder"><button id="sign-in-button">Sign In</button></a> 
+                <a href="placeholder"><img id="apps" src="./2x/outline_apps_black_24dp.png"></a>
+                <a id="images" href="placeholder">Images</a>
+                <a id="gmail" href="placeholder">Gmail</a>
+        </div>
+        <div class="content">
+            <a id="logo" href="placeholder"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"></a>
+        </div>
+        <div class="footer">
+            <a id="advertising" href="placeholder">Advertising</a>
+            <a id="business" href="placeholder">Business</a>
+            <a id="how-search-works" href="placeholder">How Search Works</a>
+            <a id="settings" href="placeholder">Settings</a>
+            <a id="terms" href="placeholder">Terms</a>
+            <a id="privacy" href="placeholder">Privacy</a>
+            
+            
+        </div>
     </body>
 </html>
