@@ -30,7 +30,8 @@
                 width: 99%;
                 position:absolute;
                 bottom: 0%;
-                height:50px;
+                height: 20px;
+                
             }
             #business {
                 padding-left: 1em;
@@ -48,7 +49,7 @@
                 padding-left: 1em;
             }
             #settings {
-                justify-content: left;
+                
                 float: right;
                 padding-left: 1em;
             }
@@ -78,7 +79,9 @@
             div.content {
                 width: 100%;
                 text-align: center;
-                padding-top: 10em;
+            }
+            #logo {
+                padding-top: 10%;
             }
             #sign-in-button {
                 background-color: rgb(66, 133, 244);
@@ -87,6 +90,29 @@
                 height: 30px;
                 width: 75px;
                 border: none;
+            }
+            #search-input {
+                background: url(2x/outline_search_black_24dp.png) no-repeat scroll 2%, url(2x/outline_mic_black_24dp.png) no-repeat 98%;
+                
+                background-size: 20px 20px;
+                height: 34px;
+                width: 30%;
+                border-radius: 20px;
+                padding-left: 2%;
+                border: solid;
+                border-width: 1px;
+                border-color: rgba(0,0,0,.87);
+                outline: none;
+            }
+            #search-button {
+                width: 125px;
+                height: 36px;
+                margin-right: 3px;
+            }
+            #feeling-lucky-button {
+                width: 142px;
+                height: 36px;
+                margin-left: 3px;
             }
         </style>
     </head>
@@ -100,7 +126,14 @@
                 <a id="gmail" href="placeholder">Gmail</a>
         </div>
         <div class="content">
-            <a id="logo" href="placeholder"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"></a>
+            <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+            
+            </br>
+            <input id="search-input" type="text">
+            </br>
+            </br>
+            <button id="search-button">Google Search</button>
+            <button id="feeling-lucky-button">I'm Feeling Lucky</button>
         </div>
         <div class="footer">
             <a id="advertising" href="placeholder">Advertising</a>
