@@ -7,11 +7,13 @@
             @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
             body {
                 font-family: 'Roboto', sans-serif;
+                color: #70757a;
             }
             a {
                 font-size: 13px;
                 text-decoration: none;
-                color: #222;
+                color: rgb(112, 117, 122);
+                margin-inline: 5px;
             }
             a:hover {
                 text-decoration: underline;
@@ -27,11 +29,13 @@
 
             }
             .footer {
-                width: 99%;
+                width: 100%;
                 position:absolute;
                 bottom: 0%;
-                height: 20px;
-                
+                left: 0%;
+                height: 40px;
+                background-color: rgb(228, 228, 228);
+                color: #70757a;
             }
             #business {
                 padding-left: 1em;
@@ -49,9 +53,9 @@
                 padding-left: 1em;
             }
             #settings {
-                
                 float: right;
                 padding-left: 1em;
+                padding-right: 1em;
             }
             #store {
                padding-left: 1em; 
@@ -93,7 +97,6 @@
             }
             #search-input {
                 background: url(2x/outline_search_black_24dp.png) no-repeat scroll 2%, url(2x/outline_mic_black_24dp.png) no-repeat 98%;
-                
                 background-size: 20px 20px;
                 height: 34px;
                 width: 30%;
@@ -101,29 +104,47 @@
                 padding-left: 2%;
                 border: solid;
                 border-width: 1px;
-                border-color: rgba(0,0,0,.87);
                 outline: none;
+                border-color: lightgray;
             }
             #search-button {
                 width: 125px;
                 height: 36px;
                 margin-right: 3px;
+                background-color: #f8f9fa;
+                font-family: arial,sans-serif;
+                font-size: 14px;
+                border-radius: 4px;
+                border: 1px solid #f8f9fa;
+                color: #202124;
+            }
+            #search-button:hover {
+                border-color: lightgray;
             }
             #feeling-lucky-button {
                 width: 142px;
                 height: 36px;
                 margin-left: 3px;
+                background-color: #f8f9fa;
+                font-family: arial,sans-serif;
+                font-size: 14px;
+                border-radius: 4px;
+                border: 1px solid #f8f9fa;
+                color: #202124;
+            }
+            #feeling-lucky-button:hover {
+                border-color: lightgray;
             }
         </style>
     </head>
     <body>
         <div class="header">
-                <a id="about" href="placeholder">About</a>
-                <a id="store" href="placeholder">Store</a>
-                <a id="sign-in" href="placeholder"><button id="sign-in-button">Sign In</button></a> 
-                <a href="placeholder"><img id="apps" src="./2x/outline_apps_black_24dp.png"></a>
-                <a id="images" href="placeholder">Images</a>
-                <a id="gmail" href="placeholder">Gmail</a>
+                <a id="about" href= "">About</a>
+                <a id="store" href= "">Store</a>
+                <a id="sign-in" href= ""><button id="sign-in-button">Sign In</button></a> 
+                <a href= ""><img id="apps" src="./2x/outline_apps_black_24dp.png"></a>
+                <a id="images" href= "">Images</a>
+                <a id="gmail" href= "">Gmail</a>
         </div>
         <div class="content">
             <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
@@ -136,12 +157,12 @@
             <button id="feeling-lucky-button">I'm Feeling Lucky</button>
         </div>
         <div class="footer">
-            <a id="advertising" href="placeholder">Advertising</a>
-            <a id="business" href="placeholder">Business</a>
-            <a id="how-search-works" href="placeholder">How Search Works</a>
-            <a id="settings" href="placeholder">Settings</a>
-            <a id="terms" href="placeholder">Terms</a>
-            <a id="privacy" href="placeholder">Privacy</a>
+            <a id="advertising" href="">Advertising</a>
+            <a id="business" href="">Business</a>
+            <a id="how-search-works" href="">How Search Works</a>
+            <a id="settings" href="">Settings</a>
+            <a id="terms" href="">Terms</a>
+            <a id="privacy" href="">Privacy</a>
             
             
         </div>
